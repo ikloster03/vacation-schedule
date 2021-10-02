@@ -35,20 +35,20 @@ const createConnections = async () => {
     options.authSource = authSource;
   }
 
-  const storageConnection = await mongoose
+  const vacationScheduleConnection = await mongoose
     .createConnection(config().MONGODB_URI, options)
     .catch(err => {
       console.error(err);
       process.exit(-1);
     });
-  // const UserModel = storageConnection.model('User', UserSchema);
-  // const EventModel = storageConnection.model('Event', EventSchema);
+  // const UserModel = vacationScheduleConnection.model('User', UserSchema);
+  // const EventModel = vacationScheduleConnection.model('Event', EventSchema);
 
   connections = {
     // UserModel,
     // EventModel,
     connections: {
-      storageConnection,
+      vacationScheduleConnection,
     },
   };
 
