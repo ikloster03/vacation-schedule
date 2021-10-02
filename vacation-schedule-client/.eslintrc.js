@@ -4,11 +4,11 @@ module.exports = {
   },
   extends: ['eslint:recommended', 'plugin:vue/vue3-recommended', 'prettier'],
   parserOptions: {
-    ecmaVersion: 2019,
+    ecmaVersion: 2020,
     sourceType: 'module',
   },
   rules: {
-    "vue/require-default-prop": "off",
-    "no-unused-vars": "warn",
+    'vue/require-default-prop': 'off',
+    'no-unused-vars': 'warn',
   },
 };
