@@ -7,9 +7,15 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@fullcalendar/core": "^5.9.0",
+    "@fullcalendar/daygrid": "^5.9.0",
+    "@fullcalendar/interaction": "^5.9.0",
+    "@fullcalendar/vue3": "^5.9.0",
     "@vueuse/core": "^6.5.3",
+    "v-calendar": "^3.0.0-alpha.5",
     "vee-validate": "^4.5.2",
     "vue": "^3.2.16",
+    "vue-final-modal": "^3.4.1",
     "vue-router": "4",
     "yup": "^0.32.9"
   },
