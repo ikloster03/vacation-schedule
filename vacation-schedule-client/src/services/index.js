@@ -1,3 +1,4 @@
 import AuthService from './auth';
+import EventService from './event';
 
-export { AuthService };
+export { AuthService, EventService };
